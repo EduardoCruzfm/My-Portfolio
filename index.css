@@ -497,8 +497,8 @@ ul li{
 }
 @media  (max-width:414px)  {
   .card {
-    width: 89vw;
-    height: 59vh;
+    width: 74vw;
+    height: 65vh;
  }
 
  .middle{
@@ -511,6 +511,6 @@ ul li{
  }
 
  .contenedor .form{
-  height: 58vh;
+  height: 62vh;
  }
 }
