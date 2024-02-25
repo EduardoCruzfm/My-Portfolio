@@ -340,8 +340,6 @@ ul li{
 .contenedor-porfolio{
   /* background:linear-gradient(45deg, blueviolet, lightgreen); */
   padding: 15px 9%;
-  /* padding-bottom: 100px; */
-  /* padding-top: 48px; */
   padding-top: 10vh;
   /*  modificacion*/
   display: flex;
@@ -495,5 +493,24 @@ ul li{
   .contenedor-porfolio{
     padding:  20px;
   }
+ 
+}
+@media  (max-width:414px)  {
+  .card {
+    width: 89vw;
+    height: 59vh;
+ }
 
+ .middle{
+  flex-direction: column;
+ }
+
+ .middle .left{
+  display: flex;
+  justify-content: center;
+ }
+
+ .contenedor .form{
+  height: 58vh;
+ }
 }
