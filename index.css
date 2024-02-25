@@ -293,7 +293,8 @@ ul li{
 .contenedor-skills .box-contenedor-tools{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+  /* align-items: center; */
 }
 
 .box-contenedor{
@@ -513,4 +514,10 @@ ul li{
  .contenedor .form{
   height: 62vh;
  }
+
+ .middle .right {
+  /* margin: 31px 15px 15px 16px; */
+  margin: 19px 15px 15px 19px;
+ }
+
 }
