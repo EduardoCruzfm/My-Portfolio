@@ -499,7 +499,7 @@ ul li{
 @media  (max-width:414px)  {
   .card {
     width: 74vw;
-    height: 65vh;
+    height: 56vh;
  }
 
  .middle{
@@ -512,7 +512,7 @@ ul li{
  }
 
  .contenedor .form{
-  height: 62vh;
+  height: 56vh;
  }
 
  .middle .right {
@@ -520,4 +520,17 @@ ul li{
   margin: 19px 15px 15px 19px;
  }
 
+}
+
+@media (max-width:375px){
+  
+
+
+  .card {
+    width: 74vw;
+    height: 74vh;
+ }
+  .contenedor .form {
+    height: 74vh;
+  }
 }
